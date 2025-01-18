@@ -2,11 +2,11 @@
 
 ![Logo](src/logo.png)
 
-A powerful and feature-rich control software for the AKAI APC mini mk2 MIDI controller, developed with significant assistance from AI (Claude).
+A powerful and feature-rich control software for the AKAI APC mini mk2 MIDI controller to enhance usabillity with dot2 on PC or other Lighting Software. 
 
 ## 🚨 Important Notice
 
-This software was developed in collaboration with AI (specifically Claude by Anthropic). While this enabled rapid development and sophisticated features, it's important to acknowledge the AI's contribution.
+This software was developed in collaboration with AI. While this enabled rapid development and sophisticated features, it's important to acknowledge the AI's contribution.
 
 ## ⚖️ Copyright and License
 
@@ -68,8 +68,6 @@ This software is protected under a custom license:
 
 ## 🎯 Purpose
 
-This software is designed to enhance the capabilities of the AKAI APC mini mk2 MIDI controller, transforming it from a simple MIDI controller into a versatile performance and visual tool. It's particularly useful for:
-
 - Live performance lighting control
 - Visual music accompaniment
 - Interactive installations
@@ -77,15 +75,57 @@ This software is designed to enhance the capabilities of the AKAI APC mini mk2 M
 - Custom controller configurations
 - Educational demonstrations
 - Visual effect programming
+- -dot2 on Pc
+- Grand MA 
 
-## 💻 Requirements
-- Python 3.8+
-- PyQt6
-- mido
-- rtmidi
-- AKAI APC mini mk2 controller
 
-## 🚀 Getting Started
+🎛️ AKAI APC mini mk2 Controller Software - Installation & Usage Guide
+===============================================================
 
-1. Connect your APC mini mk2
-2. Install dependencies:
+📋 REQUIREMENTS
+-----------
+| Component       | Version/Specification |
+|-----------------|----------------------|
+| Python          | 3.8 or newer         |
+| PyQt6          | ≥ 6.4.0              |
+| mido           | ≥ 1.2.10             |
+| python-rtmidi  | ≥ 1.4.9              |
+| pathlib        | ≥ 1.0.1              |
+| Hardware       | AKAI APC mini mk2     |
+| Connection     | USB                   |
+
+📥 INSTALLATION
+-----------
+1. Download and extract the software
+2. Install required Python packages:
+   pip install -r requirements.txt
+
+🚀 RUNNING THE SOFTWARE
+-------------------
+1. Connect AKAI APC mini mk2 to your computer via USB
+2. Start the software:
+  cd "yourpath/to/dashboard.py" --> python dashboard.py
+3. In the software interface:
+   - Select AKAI APC mini mk2 from MIDI Input dropdown
+   - Select AKAI APC mini mk2 from MIDI Output dropdown
+   - Click "Connect"
+   - LED grid should now be active and ready
+
+💡 COMMON ISSUES
+------------
+- Python package installation fails:
+  > pip install --upgrade pip
+  > pip install -r requirements.txt
+
+- MIDI device not visible:
+  > Disconnect and reconnect USB cable
+  > Check device manager/system settings
+  
+- LED grid not responding:
+  > Ensure no other software is using the MIDI device
+  > Try selecting different MIDI ports
+  > Restart the software
+
+📞 SUPPORT
+-------
+For assistance contact: michatfragen@gmail.com
