@@ -1,6 +1,6 @@
 # APC mini mk2 Controller Software
 
-![Logo](src/logo.png)
+![Logo](midiakaicontroller/logo.png)
 
 A powerful and feature-rich control software for the AKAI APC mini mk2 MIDI controller to enhance usabillity with dot2 on PC or other Lighting Software. 
 
