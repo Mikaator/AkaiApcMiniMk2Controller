@@ -7,7 +7,8 @@ A powerful and feature-rich control software for the AKAI APC mini mk2 MIDI cont
 ## 🚨 Important Notice
 
 This software was developed in collaboration with AI. While this enabled rapid development and sophisticated features, it's important to acknowledge the AI's contribution.
-!!!For Usage with Dot2 or other Programms: loopmidiport1 as Midi Loopback trough my Software sending Midi signal into Bone's Midi Translator and then a second loopmidiport2 from the Translator into dot2!!!
+
+## 🚨!!!For Usage with Dot2 or other Programms: loopmidiport1 as Midi Loopback trough my Software sending Midi signal into Bone's Midi Translator and then a second loopmidiport2 from the Translator into dot2!!!🚨
 ## ⚖️ Copyright and License
 
 Copyright © 2024 Mikaator (michatfragen@gmail.com)
